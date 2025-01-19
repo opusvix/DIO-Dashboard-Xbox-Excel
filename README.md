@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="./assets/Capa-1.png"
+    src="./assets/Xbox-game-pass.jpg"
     width="300"
 />
 </p>
@@ -17,10 +17,6 @@
     alt="🔴 LIVE CODE">
 </a>
 </p>
-<audio controls>
-<source src="output/podcast-editado.mp3" type="audio/mpeg">
-</audio>
-
 
 # Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot da [DIO](https://dio.me)
 
@@ -30,53 +26,103 @@
 
 Aprenda a criar um dashboard de vendas, com foco na organização e visualização de dados. O objetivo é transformar dados brutos em informações visuais claras e úteis, permitindo uma análise eficaz do desempenho de vendas e a tomada de decisões baseadas em dados.
 
-## :abacus: Tecnologias utilizadas nesse projeto:
+### Aqui estão todas as informações de desenvolvimento do projeto, e os dados utilizados e as instruções para utilização/reprodução.
 
-- [ChatGPT](https://chat.openai.com/)
-- [Stable Diffusion](https://stablediffusionweb.com/) No curso o instrutor utilizou o MidJourney, mas infelizmente nesse instante, essa ferramenta não possui mais o acesso free, então optei pelo Stable Diffusion.
-- [ElevenLabs](https://beta.elevenlabs.io/)
-- [Capcut](https://www.capcut.com/pt-br/)
+# XBOX GAME PASS SUBSCRIPTIONS SALES
 
-## ✨ Como foi feito?
+This project provides an interactive dashboard in Microsoft Excel to analyze Xbox Game Pass subscription sales for the year 2024. The dashboard is designed to offer insights into subscription types and sales trends, helping stakeholders better understand the performance of Xbox Game Pass subscriptions.
 
-- Roteiro gerado via ChatGPT
-- Imagens geradas via Stable Diffusion
-- Áudio gerado pela ElevenLabs
-- Capcut para tratar áudio e adicionar sons de fundo
+## ✨ Features
 
-## 📚 Materiais
+- Interactive Filters:
 
-- [Link da live no Youtube](https://www.youtube.com/@diomakethechange)
-- [Notion Template](https://helpful-jump-17b.notion.site/PAS-Podcast-AI-Studio-210489e15d7a4a73b743bb159e45d06f?pvs=4)
-- [Editor de aúdio](https://www.capcut.com/editor?from_page=landing_page&__action_from=picture_V%C3%ADdeos%20profissionais%20em%20minutos,%20n%C3%A3o%20em%20horas.)
+    - A dynamic filter to analyze sales by subscription type.
 
-## 🧠 Prompts
+- Comprehensive Visualization:
 
-ChatGPT：
+    - Easy-to-read charts and tables summarizing sales data.
 
-|   Ação   | Prompt                                                                                                                                                                                                                                                                         |
-| :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  título  | Você é um roteirista de podcast, e vamos criar um podcast de tecnologia, focado em Spark e eu gostaria de uma ajuda sua para criar 5 sugestões de nomes criativos para um podcast de Spark feito por nerds, e que tenha algum trocadilho nerd no nome. O podcast vai falar sobre dicas e novidades sobre o mundo do Spark e o que está acontecendo no mercado. {REGRAS} - O nome deve ser enxuto, um nome e um subtítulo. - O nome tenha algum trocadilho nerd com nomes de franquias conhecidas como Harry Potter, Star Wars ou Senhor dos Anéis. - O nome deve conter alguma palavra forte que remeta ao Spark. {REGRAS NEGATIVAS} - Não quero que o título contenha palavras em inglês                                                        
-| conteúdo | Você é um roteirista de podcast, e vamos criar um roteiro de um podcast de tecnologia, focado em Spark cujo o nome é "A Centelha dos Nerds - Desvendando o universo do Spark com paixão e inteligência" e tem foco em Engenharia de Dados, com o público alvo de iniciantes em dados. o formato do roteiro deve ser: [INTRODUÇÃO] [CURIOSIDADE 1] [CURIOSIDADE 2] [FINALIZAÇÃO] {REGRAS} - no bloco [INTRODUÇÃO] substitua por uma introdução iguais as introduções dos vídeos do canal 'ei nerd', como se fossem escritos pelo Peter Jordan - no bloco [CURIOSIDADE 1] substitua por uma curiosidade de Spark - no bloco [CURIOSIDADE 2] sobre uma ferramenta para engenharia de dados - no bloco [FINALIZAÇÃO] substitua por uma despedida cool com o final 'Eu sou Maurício e esse foi o Centelha dos Nerds dessa semana'. - use termos de fácil explicação - O podcast vai ser apresentado somente por uma pessoa, chamada Maurício - O podcast deve ser curto {REGRAS NEGATIVAS} - Não use muitos termos técnicos - Não ultrapasse 5 minutos de duração |
+- Clean Design:
 
+    - A user-friendly layout for quick access to key information.
 
-Stable Diffusion：
+## :eyes: Data Overview
 
-|  Ação  | Prompt                                                                                 |
-| :----: | -------------------------------------------------------------------------------------- |
-| imagem | Create an image of a stormtrooper-type robot, with headphones and a microphone, sitting in front of a laptop on a table in a library. |
+The dataset includes:
+    
+    - Sales Data: Subscription sales figures for the year 2024.
+    
+    - Subscription Types: Different categories of Xbox Game Pass subscriptions.
 
-## 🛠️ Instruções de execução
+    - Time Frame: Monthly breakdowns and annual summaries.
 
-Siga o passo a passo abaixo.
+## ✨ Getting Started
 
-- 🤖 1. Use os prompts de roteiro no `chagpt`
-- 🤖 2. Use os prompts de roteiro gerados pelo chatgpt no  `ElevenLabs`
-- 🤖 3. Use os prompts de artes no `Stable Diffusion`
-- 🤖 4. Edite o áudio no `Capcut` 
+To view and interact with the dashboard:
 
+1. Download the Excel File:
 
-:loudspeaker: [Ouça aqui o podcast](/output/podcast-editado.mp3)
+    - Ensure you have Microsoft Excel installed (version 2016 or later recommended).
+
+2. Open the File:
+
+    - Double-click Dashboard-Xbox.xlsx to open the dashboard.
+
+3. Interact with Filters:
+
+    - Use the dropdown filter for "Subscription Type" to explore data for specific subscription categories.
+
+## :question: Instructions for Reproduction
+
+If you wish to create a similar dashboard, follow these steps:
+
+1. Data Preparation:
+
+    - Collect data related to subscription sales, categorized by type and time frame.
+    
+    - Ensure data cleanliness and consistency.
+
+2. Create a New Excel Workbook:
+
+    - Import the data into Excel.
+
+3. Develop the Dashboard:
+
+    - Use pivot tables and charts to visualize the data.
+    
+    - Add slicers or dropdowns for interactivity.
+    
+    - Design a clean and professional layout for presenting the insights.
+
+4. Test Functionality:
+
+    - Ensure filters and visualizations update dynamically.
+
+    - Validate data accuracy and dashboard performance.
+
+## :abacus: Tools Used
+
+- Microsoft Excel: For creating the interactive dashboard and analyzing the data.
+
+## Preview
+
+The dashboard includes the following sections:
+
+1. Total Sales Overview
+
+2. Sales by Subscription Type
+
+3. Monthly Trends
+
+4. Top Insights and Highlights
+
+## License
+
+This project is for personal and educational use. Please contact the repository owner for other usage permissions.
+
+## Contact
+
+For further information or questions, feel free to reach out:
 
 ## 👨‍💻 Autor
 
