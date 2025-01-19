@@ -22,16 +22,13 @@
 </audio>
 
 
-# Bootcamp CAIXA - IA Generativa com Microsoft Pilot da [DIO](https://dio.me)
+# Bootcamp Heineken - Inteligência Artificial Aplicada a Dados com Copilot da [DIO](https://dio.me)
 
-## Módulo "Projetos Práticos com IA".
+## Módulo "Análise de Dados com Excel e Copilot".
 
-### Desafio de Projeto "Criando um Podcast com IAs Generativas".
+### Desafio de Projeto "Criando um Dashboard de Vendas do Xbox".
 
-Chegou a hora de pôr as ferramentas de IA à prova, vamos construir um podcast utilizando ferramentas de IA para isso. 
-Vamos utilizar o ChatGPT para criar um título atrativo e um roteiro magnético para o nosso podcast, vamos extrair o máximo de poder do Stable Diffusion para gerar uma capa personalizada e ainda utilizar o ElevenLabs para gerar um conteúdo de voz mais humanizado.
-
-Nas aulas do curso o assunto do podcast foi sobre front end com trocadilhos nerds. Aqui troquei o assunto principal para Spark, mantendo a temática.
+Aprenda a criar um dashboard de vendas, com foco na organização e visualização de dados. O objetivo é transformar dados brutos em informações visuais claras e úteis, permitindo uma análise eficaz do desempenho de vendas e a tomada de decisões baseadas em dados.
 
 ## :abacus: Tecnologias utilizadas nesse projeto:
 
