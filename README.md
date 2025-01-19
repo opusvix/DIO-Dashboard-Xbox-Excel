@@ -66,7 +66,7 @@ To view and interact with the dashboard:
 
 2. Open the File:
 
-    - Double-click Dashboard-Xbox.xlsx to open the dashboard.
+    - [Double-click here](/output/Dashboard-Xbox.xlsx) to open the dashboard.
 
 3. Interact with Filters:
 
